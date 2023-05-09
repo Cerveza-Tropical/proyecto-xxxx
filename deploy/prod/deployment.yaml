@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: proyecto-prueba
-        image: ghcr.io/cerveza-tropical/proyecto-prueba:v1.0.1
+        image: ghcr.io/cerveza-tropical/proyecto-prueba:v1.0.2
         ports:
         - containerPort: 5000
