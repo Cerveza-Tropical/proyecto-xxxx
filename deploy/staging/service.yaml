@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: proyecto-prueba
+spec:
+  selector:
+    app: proyecto-prueba
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
